@@ -1,0 +1,30 @@
+# Virtual Environment at root
+venv/
+.venv/
+env/
+
+# Dependencies
+node_modules/
+frontend/healthbrain-ai/node_modules/
+frontend/healthbrain-ai/.next/
+
+# Local configurations and environment files
+.env
+.env.*
+backend/.env
+backend/.env.*
+backend/mednova-*-firebase-adminsdk-*.json
+
+# User Uploaded Documents
+backend/uploads/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Local logs
+*.log
+
+# Agent-specific directories
+.agents/
+.gemini/
