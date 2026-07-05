@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+Active.ps1
+*activate*
+
+# Environment configurations and secrets
+.env
+.env.*
+*.env
+
+# Firebase service account credential files
+mednova-*-firebase-adminsdk-*.json
+firebase-key.json
+*.json.local
+
+# User Uploaded Documents
+uploads/
+uploads/**
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local IDE and editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
